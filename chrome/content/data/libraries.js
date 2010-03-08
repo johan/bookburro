@@ -6964,6 +6964,22 @@ missing: 'No matches found'
      missing: 'found no matches in the library you searched'
 },
 {
+     name: 'us.ca.bay_area',
+     title: 'CA - Peninsula Library System',
+     link: 'http://catalog.plsinfo.org/search/i?SEARCH=#{ISBN}',
+     dont: '9515005574',
+     have: '0783896417',
+     missing: 'No matches found'
+},
+{
+     name: 'us.ca.menlo_park',
+     title: 'CA - Menlo Park',
+     link: 'http://catalog.plsinfo.org/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=4',
+     dont: '9515005574',
+     have: '0783896417',
+     missing: 'No matches found'
+},
+{
      name: 'us.ca.oc.aliso_viejo_library',
      title: 'Orange Co. - Aliso Viejo Library',
      link: 'http://orca.ocpl.org/uhtbin/cgisirsi/x/0/0/123?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=ALISOVIEJO',
